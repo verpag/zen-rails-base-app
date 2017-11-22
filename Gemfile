@@ -52,7 +52,7 @@ gem 'rack-cache'
 # translate model attributes, possibility to place all of the app's strings in
 # YML dictionaries). Only use this gem if you need to translate Rails to one or
 # more non-english languages.
-# gem 'rails-i18n', '~> 5.0.0'
+gem 'rails-i18n', '~> 5.0.0'
 # Searching, filtering and sorting
 gem 'ransack'
 # Advanced select boxes https://select2.github.io/

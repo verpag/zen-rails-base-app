@@ -11,7 +11,7 @@
 
 FriendlyId.defaults do |config|
   # ## Reserved Words
-  #
+
   # Some words could conflict with Rails's routes when used as slugs, or are
   # undesirable to allow as slugs. Edit this list as needed for your app.
   config.use :reserved
@@ -38,7 +38,7 @@ FriendlyId.defaults do |config|
   # performance because it will avoid Rails-internal code that makes runtime
   # calls to `Module.extend`.
   #
-  # config.use :finders
+  config.use :finders
   #
   # ## Slugs
   #
